@@ -1,0 +1,319 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #023a5b;
+  color: white;
+  padding: 5px 10px;
+  gap: 20px;
+}
+
+.top-bar .logo {
+  font-weight: bold;
+}
+
+.top-bar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar nav ul li {
+  cursor: pointer;
+  margin-right: 0;
+  font-size: small;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-back {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.btn-back:hover {
+  color: #007bff;
+}
+
+.hero-title {
+  font-size: 16px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.exchange-rates, .date {
+  font-size: 14px;
+}
+
+.notification {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.verifier {
+  font-size: 10px;
+  color: gray;
+  margin-top: 2px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+  overflow: hidden;
+}
+.table-container {
+  margin: 20px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border-spacing: 1px; 
+  border-collapse: separate; 
+  width: 100%;
+}
+td, th {
+  text-align: left;
+  vertical-align: text-top;
+  background-color: #fff7e6;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #d6d1c4;
+}
+td input {
+  width: 90%;
+  align-self: center; 
+}
+
+input, select {
+  border-radius: 8px;
+  align-self: center; 
+}
+.ot {
+  height: 200px; 
+}
+
+.input-text-1 {
+  height: 55%; 
+}
+
+.input-text-2 {
+  height: 15%; 
+}
+.declaration {
+}
+.declaration input,  
+.declaration textarea {
+  width: 35%;
+  padding: 8px;
+  border: 1px solid #000;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 25px;
+}
+.declaration select {
+  width: 25%;
+  height: 25px;
+}
+.Otg {
+  display: flex; 
+  justify-content: space-between; 
+}
+.Otg input {
+  width: 48%;
+  padding: 5px;
+}
+.A input {
+  margin: 5px;
+}
+.Poluchatel {
+  height: 200px;
+}
+.input-3 {
+  height: 70%;
+}
+.input-4 {
+  height: 15%;
+}
+.A input,
+.A select {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #000;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.lico{
+  height: 150px;
+}
+.input-5 {
+  height: 35%;
+}
+.input-6 {
+  height: 15%;
+}
+.obsh input{
+  width: 70%;
+}
+.obsh select {
+  width: 20%;
+}
+.deklarant{
+  height: 150px;
+}
+.input-7 {
+  height: 40%;
+}
+.input-8 {
+  height: 20%;
+}
+.input-9 {
+  width: 85%;
+}
+.input-10 {
+  width: 10%;
+}
+.usl {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.inputs-container {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 10px; 
+}
+
+.usl select {
+  width: 25%; 
+}
+
+.usl input {
+  width: 75%; 
+}
+.ID2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input-11 {
+  width: 85%;
+}
+
+.input-12 {
+  width: 15%;
+}
+.val {
+  display: flex;
+  flex-direction: column;
+}
+.val select {
+  width: 48%;
+}
+
+.val input {
+  width: 48%;
+}
+.har {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 100%; 
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: space-between; 
+  height: 100%; 
+}
+
+.left select, .right select {
+  margin-top: 5px; 
+}
+
+.left div, .right div {
+  display: flex;
+  align-items: center; 
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #000;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0;
+}

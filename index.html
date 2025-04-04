@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="top-bar">
+        <div class="logo">НИП КЕДЕН</div>
+
+        <nav>
+            <ul>
+                <li>Электронное декларирование</li>
+                <li>Сервис ТН ВЭД</li>
+            </ul>
+        </nav>
+
+        <div class="right-section">
+            <span class="exchange-rates">USD: 450 ₸ | EUR: 500 ₸</span>
+            <div class="divider"></div>
+            <span class="date">31.03.2025</span>
+            <div class="divider"></div>
+            <span class="notification">🔔</span>
+            <div class="divider"></div>
+            <div class="user-info">
+                <img src="fe6ca2.jpg" alt="Аватар" class="avatar">
+                <div class="user-text">
+                    <span class="user-name">Иванов И.И.</span>
+                    <p class="verifier">Проверяющий человек</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+</header>
+<hero>
+    <div class="hero">
+        <a href="#" class="btn-back">
+            ←
+        </a>
+        <span class="hero-title">Декларация на товары</span>
+    </div>
+</hero>
+<body>
+    <section class="table-container">
+        <table>
+            <tr>
+                <td rowspan="12" style="width: 5%;"></td>
+                <td colspan="4" rowspan="3">
+                    <div class="ot">
+                        2. Отправитель/экспортер 
+                        <br>
+                        <input type="checkbox"> Признак совпадения с графой [14] Декларант
+                        <br>
+                        <input type="text" class="input-text-1">
+                        <br>
+                        <input type="text" class="input-text-2">
+                    </div>
+                </td>
+                <td colspan="2">1. Декларация
+                    <div class="declaration">
+                        <input type="text"> <input type="value"> <select><option>ЭД</option></select>
+                    </div>
+                </td>
+                <td colspan="2" rowspan="2">A
+                    <div class="A">
+                        <input type="text"> <select><option>251224</option></select><input type="value">
+                        СПРАВОЧНИКИ И КУРСЫ ВАЛЮТ ПО СОСТОЯНИЮ НА УКАЗАННУЮ ДАТУ
+                        <input type="checkbox">Пониженные ставки ВТО
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3. Формы
+                    <div class="Forms">
+                        <input type="value">
+                    </div>
+                </td>
+                <td>4. Отг. спец.
+                    <div class="Otg">
+                        <input type="text"> 
+                        <input type="text">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>5. Всего т-ов
+                    <div class="Vsego">
+                        <input type="value">
+                    </div>
+                </td>
+                <td>6. Кол. мест
+                    <div class="kolvo">
+                        <input type="value">
+                    </div>
+                </td>
+                <td colspan="2">7. Справочный номер
+                    <div class="num">
+                        <input type="text">
+                        <input type="checkbox">Признак недропользователья
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" rowspan="3">8. Получатель 
+                    <div class="Poluchatel">
+                        <input type="checkbox">Признак совпадения с графой[14]Декларант
+                        <input type="text" class="input-3">
+                        <input type="text" class="input-4">
+                    </div>
+                </td>
+                <td colspan="4" rowspan="2">
+                    <div class="lico">
+                        9. Лицо, ответственное за фин. урегулирование <input type="checkbox">Признак совпадения с графой[14]Декларант
+                        <input type="text" class="input-5">
+                        <input type="text" class="input-6">
+                    </div>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>
+                    10. Стр. 1-но наз.
+                    <input type="text">
+                </td>
+                <td>
+                    11. Тор. страна
+                    <input type="text">
+                </td>
+                <td>
+                    <div class="obsh">
+                        12. Общая таможенная стоимость
+                        <input type="text"> <select><option></option></select>
+                    </div>
+                </td>
+                <td>
+                    13.
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" rowspan="2">
+                    <div class="deklarant">
+                        14. Декларант
+                        <input type="text" class="input-7">
+                        <input type="text" class="input-8">
+                    </div>
+                </td>
+                <td colspan="2">
+                    15. Страна отправления
+                    <select><option>Абхазия</option></select>
+                </td>
+                <td>
+                    15а Код страны отпр.
+                    <input type="text">
+                </td>
+                <td>17a Код страны назн.
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    16. Страна происхождения
+                    <select><option>Абхазия</option></select>
+                </td>
+                <td colspan="2">
+                    17. страна назначения
+                    <select><option>Абхазия</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="ID">
+                        18. Идентификация и страна регист-и и тран. ср-ва при отправлю/прибытии
+                        <input type="text" class="input-9"> 
+                        <input type="text" class="input-10">
+                    </div>
+                </td>
+                <td>
+                    19. Контейнер
+                    <input type="value">
+                </td>
+                <td colspan="4">
+                    <div class="usl">
+                        20. Условия поставки
+                        <div class="inputs-container">
+                            <select><option>CFR</option></select>
+                            <input type="text">
+                        </div>
+                    </div>
+                </td>                
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div class="ID2">
+                        21. Идентификация и страна регистрации активного трансп. средства на границе
+                        <div class="inputs-container">
+                            <input type="text" class="input-11">
+                            <input type="text" class="input-12">
+                        </div>
+                    </div>
+                </td>                
+                <td colspan="2">
+                    <div class="val">
+                        22. Валюта и общая сумма по счету
+                        <div class="inputs-container">
+                            <select><option>USD</option></select>
+                            <input type="value">
+                        </div>
+                    </div>
+                </td>                
+                <td>
+                    23. Курс валюты
+                    <input type="text">
+                </td>
+                <td>
+                    <div class="har">
+                        <div class="left">
+                            24. Хар. сделки
+                            <select><option>001</option></select>
+                        </div>
+                        <div class="right">
+                            Особенности
+                            <select><option>00</option></select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    25. Вид транс. на гр.
+                    <select><option>10</option></select>
+                </td>
+                <td>
+                    26. Вид транс. внутри
+                    <select><option>20</option></select>
+                </td>
+                <td colspan="2">
+                    27. Место погрузки/разгрузки
+                    <input type="text">
+                </td>
+                <td colspan="4">
+                    28. Финансовые и банковский сведения
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    29. Орган вьезда/выезда
+                    <input type="text">
+                </td>
+                <td colspan="2">
+                    30. Местонахождение товаров
+                    <input type="text">
+                </td>
+                <td colspan="4">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"></td>
+            </tr>
+        </table>
+    </section>
+</body>
