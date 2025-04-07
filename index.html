@@ -50,9 +50,13 @@
                 <td rowspan="12" style="width: 5%;"></td>
                 <td colspan="4" rowspan="3">
                     <div class="ot">
-                        2. Отправитель/экспортер 
-                        <br>
-                        <input type="checkbox"> Признак совпадения с графой [14] Декларант
+                        <div class="ot-header">
+                            <span>2. Отправитель/экспортер</span>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                Признак совпадения с графой [14] Декларант
+                            </label>
+                        </div>
                         <br>
                         <input type="text" class="input-text-1">
                         <br>
@@ -68,6 +72,7 @@
                     <div class="A">
                         <input type="text"> <select><option>251224</option></select><input type="value">
                         СПРАВОЧНИКИ И КУРСЫ ВАЛЮТ ПО СОСТОЯНИЮ НА УКАЗАННУЮ ДАТУ
+                        <br>
                         <input type="checkbox">Пониженные ставки ВТО
                     </div>
                 </td>
@@ -89,14 +94,21 @@
                 <td>5. Всего т-ов
                     <div class="Vsego">
                         <input type="value">
+                        <br>
+                        <br>
                     </div>
                 </td>
                 <td>6. Кол. мест
                     <div class="kolvo">
                         <input type="value">
+                        <br>
+                        <br>
                     </div>
                 </td>
-                <td colspan="2">7. Справочный номер
+                <td colspan="2">
+                    <br>
+                    <br>
+                    7. Справочный номер
                     <div class="num">
                         <input type="text">
                         <input type="checkbox">Признак недропользователья
@@ -104,16 +116,28 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="4" rowspan="3">8. Получатель 
+                <td colspan="4" rowspan="3">
                     <div class="Poluchatel">
-                        <input type="checkbox">Признак совпадения с графой[14]Декларант
+                        <div class="ot-header">
+                            <span>8. Получатель</span>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                Признак совпадения с графой [14] Декларант
+                            </label>
+                        </div>
                         <input type="text" class="input-3">
                         <input type="text" class="input-4">
                     </div>
                 </td>
                 <td colspan="4" rowspan="2">
                     <div class="lico">
-                        9. Лицо, ответственное за фин. урегулирование <input type="checkbox">Признак совпадения с графой[14]Декларант
+                        <div class="ot-header">
+                            <span>9. Лицо, ответственное за фин. урегулирование</span>
+                            <label class="checkbox-label">
+                                <input type="checkbox">
+                                Признак совпадения с графой [14] Декларант
+                            </label>
+                        </div>
                         <input type="text" class="input-5">
                         <input type="text" class="input-6">
                     </div>
@@ -222,6 +246,7 @@
                             <select><option>001</option></select>
                         </div>
                         <div class="right">
+                            <br>
                             Особенности
                             <select><option>00</option></select>
                         </div>
@@ -256,12 +281,362 @@
                     <input type="text">
                 </td>
                 <td colspan="4">
+                    <br>
                     <input type="text">
                 </td>
             </tr>
-            <tr>
-                <td colspan="9"></td>
-            </tr>
+            <div class="blue">
+                <tr>
+                    <td colspan="9">
+                        <div class="knop">
+                            <button class="white-button">
+                                📄 Дублировать товар
+                            </button>
+                            <button class="icon-button">
+                                🗑
+                            </button>
+                            <select class="styled-select">
+                                <option>Товар 1</option>
+                            </select>
+                            <button class="whiter-button">&lt;</button>
+                            <span class="page-number">1</span>
+                            <button class="whiter-button">&gt;</button>
+                            <button class="whiter-button">
+                                ⬇ Импорт из файла
+                            </button>
+                            <button class="gold-button">
+                                ➕ Добавить товар
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td rowspan="5">
+                        31.грузовые места и описание товаров
+                    </td>
+                    <td rowspan="5" colspan="3">
+                        <div class="mark">
+                            Маркировка и количество-Номера контейнеров-Количество и отличит.особен.
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td rowspan="5">
+                        <div class="tov">
+                            32.Товар
+                            <br>
+                            <input type="text"> <select><option>1</option></select>
+                        </div>
+                    </td>
+                    <td>
+                        33. Код товара
+                        <input type="text">
+                    </td>
+                    <td colspan="2">
+                        O
+                    </td>
+                    <td>
+                        Доп.код
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="a-34">
+                            34a  34b
+                            <br>
+                            <input type="text"> <input type="text">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        35. Вес брутто (КГ)
+                        <input type="text">
+                    </td>
+                    <td>
+                        <div class="pref">
+                            36. Преференция
+                            <br>
+                            <input type="value">
+                            <input type="value">
+                            <input type="value">
+                            <input type="value">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="proc">
+                            37.Процедура
+                            <br>
+                            <input type="text">
+                            <input type="text">
+                            <input typr="text">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <div class="ves">
+                            38. Вес нетто(КГ)
+                            <br>
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        39. Квота
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        40. Общая декларация/предшествующий документ
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="dop">
+                            41. Дополнит. единицы
+                            <br>
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        42. Цена товара
+                        <input type="text">
+                    </td>
+                    <td>
+                        <div class="moc">
+                            43. Код МОС
+                            <br>
+                            <input type="value">
+                            <input type="value">
+                            <input type="value">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        44. Дополн. информация/Представл. Документы
+                    </td>
+                    <td rowspan="2" colspan="4">
+                        <div class="pusto">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td rowspan="2" colspan="2">
+                    </td>
+                    <td colspan="2">
+                        45.Таможенная стоимость
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        46. Статистическая стоимость
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        47. Исчисление платежей
+                    </td>
+                    <td rowspan="3" colspan="4">
+                        <table class="tb">
+                            <tr>
+                                <th>
+                                    №
+                                </th>
+                                <th>
+                                    Вид
+                                </th>
+                                <th>
+                                    Основание насичсления
+                                </th>
+                                <th>
+                                    Ставка
+                                </th>
+                                <th>
+                                    Сумма
+                                </th>
+                                <th>
+                                    СП
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    1010
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    6 МРП
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    ИУ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    1010
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    6 МРП
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    ИУ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    1010
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    6 МРП
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    ИУ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    1010
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    6 МРП
+                                </td>
+                                <td>
+                                    11076
+                                </td>
+                                <td>
+                                    ИУ
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td colspan="2">
+                        48. Отсрочка платежей
+                        <input type="text">
+                    </td>
+                    <td colspan="2">
+                        49. Реквизиты склада
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="4">
+                        <div class="pod">
+                            В ПОДРОБНОСТИ ПОДСЧЕТА
+                            <input type="text">
+                        </div>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td rowspan="3">
+                        51.Предпологаемые органы (и страна) транзита
+                    </td>
+                    <td rowspan="2" colspan="4">
+                        <div class="pusto-2">
+                            50.
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td rowspan="2" colspan="4">
+                        <div class="pusto-2">
+                            C
+                            <input type="text">
+                        </div>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <div class="mal">
+                            <input type="text">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        52. Гарантия недействительна декларация
+                        <input type="text">
+                    </td>
+                    <td colspan="4">
+                        53. Орган(и страна) назначения
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" colspan="5">
+                        D
+                        <br>
+                        <input type="checkbox"> Без таможенного представителя
+                    </td>
+                    <td rowspan="3" colspan="4">
+                        <div class="mesto">
+                            54. Место и Дата
+                            <input type="text">
+                        </div>
+                    </td>
+                </tr>
+            </div>    
         </table>
     </section>
 </body>
